@@ -288,7 +288,7 @@
     	width: calc(100% / 3 - 1 * 1.1%);
 	}
   .c-column.c-left {
-    	margin-top: 16%;
+    	margin-top: 16% !important;
 	}
 }
 
@@ -300,7 +300,7 @@
     	width: calc(100% / 2 - 1 * 1.1%);
 	}
   .c-column.c-left {
-    	margin-top: 27.5%;
+    	margin-top: 27.5% !important;
 	}
 }
 
