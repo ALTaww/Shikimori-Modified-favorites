@@ -271,12 +271,14 @@
   #profiles_show .cc-favourites .c-column:nth-child(5), #profiles_show .cc-favourites .c-column:nth-child(6) {
     display: none;
   }
+}
+@media screen and (min-width: 601px) and (max-width:767px) {
   #profiles_show .cc-favourites .c-column {
     width: calc(100% / 4 - 1 * 1.1%);
   }
   /*Убираем образовавшуюся пустоту*/
   .c-column.c-left {
-    margin-top: 12.5% !important;
+    margin-top: 12.5%;
   }
 }
 
@@ -284,11 +286,13 @@
   #profiles_show .cc-favourites .c-column:nth-child(4) {
     display: none;
   }
+}
+@media screen and (min-width: 373px) and (max-width:600px) {
   #profiles_show .cc-favourites .c-column {
     	width: calc(100% / 3 - 1 * 1.1%);
 	}
   .c-column.c-left {
-    	margin-top: 16% !important;
+    	margin-top: 16%;
 	}
 }
 
@@ -300,7 +304,7 @@
     	width: calc(100% / 2 - 1 * 1.1%);
 	}
   .c-column.c-left {
-    	margin-top: 27.5% !important;
+    	margin-top: 27.5%;
 	}
 }
 
