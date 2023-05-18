@@ -280,9 +280,6 @@
   .c-column.c-left {
     margin-top: 12.5% !important;
   }
-  .c-column.c-left {
-    margin-top: 12.5% !important;
-  }
 }
 
 @media screen and (max-width:600px) {
@@ -297,9 +294,6 @@
   .c-column.c-left {
     	margin-top: 16% !important;
 	}
-  .c-column.c-left {
-    	margin-top: 16% !important;
-	}
 }
 
 @media screen and (max-width:372px) {
@@ -308,9 +302,6 @@
   }
   #profiles_show .cc-favourites .c-column {
     	width: calc(100% / 2 - 1 * 1.1%);
-	}
-  .c-column.c-left {
-    	margin-top: 27.5% !important;
 	}
   .c-column.c-left {
     	margin-top: 27.5% !important;
